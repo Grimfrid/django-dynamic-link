@@ -9,7 +9,7 @@ __licence__ = "New BSD Licence"
 
 import presettings
 from django.db import models
-import settings
+from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 import random
 import os
@@ -87,7 +87,7 @@ class Download(models.Model):
         Check if object instance expired and keep values of the istance actual.
         """
         # Keep the order of the tests
-        
+
         # 1. Test of timeout
         if self.timeout():
             if self.active:
