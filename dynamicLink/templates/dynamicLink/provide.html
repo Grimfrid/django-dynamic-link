@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans "download" %}
+{% endblock %}
+{% block title2 %}
+    {% trans "for later use please bookmark this page" %}.
+{% endblock %}
+
+{% block content %}
+
+<div class="main_container_line">
+    <h2>{% trans "Requested content" %}</h2>
+
+    {% if downloads.actives %}
+    <h3>{% trans "Activ downloads" %}:</h3>
+    {% for obj in downloads.actives %}
+    {% trans "Download" %}: <a href="/{{ request.LANGUAGE_CODE }}/{{ basepath }}/link/{{ obj.link_key }}/{{ obj.get_filename }}" name="Your Download">{{ obj.get_filename }}</a><br/>
+    {% endfor %}
+    <br/>
+    {% endif %}
+
+    {% if downloads.expired %}
+    <h3>{% trans "Expired downloads" %}:</h3>
+    {% for obj in downloads.expired %}
+        {% trans "Download" %}: <a href="/{{ request.LANGUAGE_CODE }}/{{ basepath }}/link/{{ obj.link_key }}/{{ obj.get_filename }}" name="Your Download">{{ obj.get_filename }}</a><br/>
+    {% endfor %}
+    <br/>
+    {% endif %}
+
+    {% if downloads.notexist %}
+    <h3>{% trans "These links are faulty" %}:</h3>
+    {% for key in downloads.notexist %}
+        {% trans "Link Error" %}: <a href="/{{ request.LANGUAGE_CODE }}/{{ basepath }}/link/{{ key }}/unknown" name="Does not exist">http://{{ request.META.HTTP_HOST }}/{{ request.LANGUAGE_CODE }}/{{ basepath }}/link/{{ key }}/</a><br/>
+    {% endfor %}
+    <br/>
+    {% endif %}
+
+</div>
+    <!-- IE Clearing -->
+    <div id="ie_clearing">&nbsp;</div>
+
+<div class="main_container_line">
+    <h2>{% trans "difficulties encountered?" %}</h2>
+    {% trans "If something goes wrong with your download then contact us with" %}
+    <a href="/{{ request.LANGUAGE_CODE }}/feedback/contact/" name="contact if anything goes wrong">{% trans "our contact form" %}.</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-08 21:33+0800\n"
+"PO-Revision-Date: 2011-09-08 15:36\n"
+"Last-Translator: A. Fritz <catapela@gmx.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Translated-Using: django-rosetta 0.6.2\n"
+
+#: admin.py:28
+msgid "Link"
+msgstr "Verknüpfung"
+
+#: admin.py:31
+msgid "Aditional values"
+msgstr "Weitere Parameter"
+
+#: admin.py:46
+msgid "timeout"
+msgstr "abgelaufen"
+
+#: admin.py:50
+msgid "valid"
+msgstr "gültig"
+
+#: admin.py:56
+msgid "file"
+msgstr "Datei"
+
+#: admin.py:60 admin.py:70
+msgid "from"
+msgstr "von"
+
+#: admin.py:67
+msgid "max clicks reached"
+msgstr "Maximum erreicht"
+
+#: admin.py:70
+msgid "unlimited"
+msgstr "Unbeschränkt"
+
+#: admin.py:74
+msgid "clicks"
+msgstr "Zugriffe"
+
+#: admin.py:83
+msgid "Site"
+msgstr "Seite"
+
+#: admin.py:87
+msgid "File"
+msgstr "Datei"
+
+#: admin.py:91
+msgid "link"
+msgstr "Verknüpfung"
+
+#: admin.py:103
+msgid "Make from selected a download site link"
+msgstr "Generiere vom selektierten eine Seiten Url"
+
+#: models.py:19
+msgid "slug"
+msgstr "Schlagwort"
+
+#: models.py:21
+msgid "is aktive"
+msgstr "Ist aktiv"
+
+#: models.py:25
+msgid ""
+"Select the content your like                                       to "
+"provide."
+msgstr "Wähle den anzubietenden Inhalt aus."
+
+#: models.py:27
+msgid "content to serve"
+msgstr "Anzubietender Inhalt"
+
+#: models.py:36
+msgid "creation time"
+msgstr "Erstellungszeit"
+
+#: models.py:38
+msgid "timout in hours"
+msgstr "Gültigkeit in Stundenk"
+
+#: models.py:39
+msgid "Zero value means no timeout."
+msgstr "Keine Zeitüberschreitung bei Nullwert"
+
+#: models.py:40
+msgid "maximum allowed clicks"
+msgstr "Maximal zugelassene Zugriffe"
+
+#: models.py:41
+msgid "Zero value means no limitation."
+msgstr "Keine Beschränkung bei Nullwert"
+
+#: models.py:42
+msgid "current clicks"
+msgstr "Aktuelle Zugriffe"
+
+#: models.py:72
+msgid "never expires"
+msgstr "Immer gültig"
+
+#: models.py:137
+msgid "Slug"
+msgstr "Schlagwort"
+
+#: models.py:137
+msgid "Filename"
+msgstr "Dateiname"
+
+#: presettings.py:18
+msgid "This request is faulty"
+msgstr "Diese Verknüpfung ist fehlerhaft"
+
+#: presettings.py:19
+msgid "Sorry, this request is already expired"
+msgstr "Der angeforderte Inhalt ist nicht mehr Verfügbar"
+
+#: views.py:37
+msgid "Sorry, your request is mot available"
+msgstr "Die Anfrage ist nicht verfügbar"
+
+#: views.py:104
+msgid "File not found!"
+msgstr "Datei nicht gefunden"
+
+#: templates/dynamicLink/not_avallible.html:5
+#: templates/dynamicLink/provide.html:5
+msgid "download"
+msgstr "download"
+
+#: templates/dynamicLink/not_avallible.html:12
+msgid "If something goes wrong please contact us with "
+msgstr "Im Falle eines Fehlers kontaktieren Sie uns bitte über "
+
+#: templates/dynamicLink/not_avallible.html:13
+#: templates/dynamicLink/provide.html:47
+msgid "our contact form"
+msgstr "unser Kontaktformular"
+
+#: templates/dynamicLink/provide.html:8
+msgid "for later use please bookmark this page"
+msgstr "Für späteren Zugriff diese Seite zu den Lesezeichen hinzugügen"
+
+#: templates/dynamicLink/provide.html:14
+msgid "Requested content"
+msgstr "Angeforderter Inhalt"
+
+#: templates/dynamicLink/provide.html:17
+msgid "Activ downloads"
+msgstr "Aktive Downloads"
+
+#: templates/dynamicLink/provide.html:19 templates/dynamicLink/provide.html:27
+msgid "Download"
+msgstr "Download"
+
+#: templates/dynamicLink/provide.html:25
+msgid "Expired downloads"
+msgstr "Nicht mehr gültige Downloads"
+
+#: templates/dynamicLink/provide.html:33
+msgid "These links are faulty"
+msgstr "Diese Verknüpfungen sind fehlerhaft"
+
+#: templates/dynamicLink/provide.html:35
+msgid "Link Error"
+msgstr "Fehlerhafte Verknüpfungen"
+
+#: templates/dynamicLink/provide.html:45
+msgid "difficulties encountered?"
+msgstr "Schwierigkeiten aufgetreten?"
+
+#: templates/dynamicLink/provide.html:46
+msgid "If something goes wrong with your download then contact us with"
+msgstr ""
+"Sollten Schwierigkeiten mit dem Download auftreten kontaktieren Sie "
+"uns bitte über"
+
+#~ msgid "Anything goes wrong?"
+#~ msgstr "Schwierigkeiten aufgetreten?"
+
+#~ msgid "Please click here for download your content"
+#~ msgstr "Bitte hier klicken um das Herunterladen der Datei zu Starten"
+
+#~ msgid "Platform independent file path field implementation"
+#~ msgstr "Platform unabhängige Dateipfad-Auswahl-Feld Implementierung"
+
+#~ msgid "Files with whitespaces can't be used!"
+#~ msgstr "Dateien mit Leerstellen im Dateinamen können nicht ausgewählt werden!"
+
+#~ msgid "Select the content your like to provide."
+#~ msgstr "Auswahl der gewünschten Dateien"

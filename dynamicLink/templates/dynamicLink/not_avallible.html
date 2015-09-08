@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans "download" %}
+{% endblock %}
+
+{% block content %}
+
+<div class="main_container_line">
+    <h2>{{ message }}!</h2>
+    {% trans "If something goes wrong please contact us with " %}
+    <a href="/{{ request.LANGUAGE_CODE }}/feedback/contact/" name="contact if anything goes wrong">{% trans "our contact form" %}.</a>
+</div>
+    <!-- IE Clearing -->
+    <div id="ie_clearing">&nbsp;</div>
+
+{% endblock %}

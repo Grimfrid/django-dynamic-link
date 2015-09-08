@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}
+    {% trans "django-dynamic-link example site" %}
+{% endblock %}
+
+{% block content %}
+
+<b>{% trans "Navigation" %}:<br/></b>
+    
+    <a href="/admin/" name="Go to admin">{% trans "Go to admin" %}.</a>
+<br/>
+
+{% endblock %}

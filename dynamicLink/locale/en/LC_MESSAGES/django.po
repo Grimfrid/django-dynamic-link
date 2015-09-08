@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-08 21:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:28
+msgid "Link"
+msgstr ""
+
+#: admin.py:31
+msgid "Aditional values"
+msgstr ""
+
+#: admin.py:46
+msgid "timeout"
+msgstr ""
+
+#: admin.py:50
+msgid "valid"
+msgstr ""
+
+#: admin.py:56
+msgid "file"
+msgstr ""
+
+#: admin.py:60 admin.py:70
+msgid "from"
+msgstr ""
+
+#: admin.py:67
+msgid "max clicks reached"
+msgstr ""
+
+#: admin.py:70
+msgid "unlimited"
+msgstr ""
+
+#: admin.py:74
+msgid "clicks"
+msgstr ""
+
+#: admin.py:83
+msgid "Site"
+msgstr ""
+
+#: admin.py:87
+msgid "File"
+msgstr ""
+
+#: admin.py:91
+msgid "link"
+msgstr ""
+
+#: admin.py:103
+msgid "Make from selected a download site link"
+msgstr ""
+
+#: models.py:19
+msgid "slug"
+msgstr ""
+
+#: models.py:21
+msgid "is aktive"
+msgstr ""
+
+#: models.py:25
+msgid ""
+"Select the content your like                                       to "
+"provide."
+msgstr ""
+
+#: models.py:27
+msgid "content to serve"
+msgstr ""
+
+#: models.py:36
+msgid "creation time"
+msgstr ""
+
+#: models.py:38
+msgid "timout in hours"
+msgstr ""
+
+#: models.py:39
+msgid "Zero value means no timeout."
+msgstr ""
+
+#: models.py:40
+msgid "maximum allowed clicks"
+msgstr ""
+
+#: models.py:41
+msgid "Zero value means no limitation."
+msgstr ""
+
+#: models.py:42
+msgid "current clicks"
+msgstr ""
+
+#: models.py:72
+msgid "never expires"
+msgstr ""
+
+#: models.py:137
+msgid "Slug"
+msgstr ""
+
+#: models.py:137
+msgid "Filename"
+msgstr ""
+
+#: presettings.py:18
+msgid "This request is faulty"
+msgstr ""
+
+#: presettings.py:19
+msgid "Sorry, this request is already expired"
+msgstr ""
+
+#: views.py:37
+msgid "Sorry, your request is mot available"
+msgstr ""
+
+#: views.py:104
+msgid "File not found!"
+msgstr ""
+
+#: templates/dynamicLink/not_avallible.html:5
+#: templates/dynamicLink/provide.html:5
+msgid "download"
+msgstr ""
+
+#: templates/dynamicLink/not_avallible.html:12
+msgid "If something goes wrong please contact us with "
+msgstr ""
+
+#: templates/dynamicLink/not_avallible.html:13
+#: templates/dynamicLink/provide.html:47
+msgid "our contact form"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:8
+msgid "for later use please bookmark this page"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:14
+msgid "Requested content"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:17
+msgid "Activ downloads"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:19 templates/dynamicLink/provide.html:27
+msgid "Download"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:25
+msgid "Expired downloads"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:33
+msgid "These links are faulty"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:35
+msgid "Link Error"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:45
+msgid "difficulties encountered?"
+msgstr ""
+
+#: templates/dynamicLink/provide.html:46
+msgid "If something goes wrong with your download then contact us with"
+msgstr ""
